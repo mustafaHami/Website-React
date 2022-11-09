@@ -1,0 +1,343 @@
+
+body {
+  padding-top: 5rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h5{
+  color: red;
+}
+.main-div {
+  padding: 10px;
+  text-align: center;
+}
+
+.clickable:hover {
+  border-width: 3px;
+  border-color: #0069D9;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.card {
+  margin-bottom: 5px;
+  border-width: 3px;
+  padding: 5px;
+  
+
+}
+.card-musicien-groupe{
+  border: 2px solid black;
+}
+.card-img {
+  height: 300px; 
+  width: 100px; 
+  display: block; 
+  margin-top: 5px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.card-img-musiciengroupe{
+  height: 150px; 
+  width: auto; 
+  display: block; 
+  margin-top: 10px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.cart-img-produit {
+  height: 40px; 
+  width: auto; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#listMusici{
+  border: 2px solid rgb(36, 160, 5);
+}
+#liGroupe:hover{
+  background-color: #dbbb84;
+}
+.limusicien:hover{
+  background-color: #a6c2e2;
+
+}
+.musicien-list {
+  border:1px solid #cbbfab;
+  list-style-type : none;
+  padding: 3px;
+  margin: 5px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.groupe-list {
+  border:1px solid #af8131;
+  list-style-type : none;
+  padding: 3px;
+  margin: 5px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#connexion >form{
+   display: block;
+   text-align: center;
+  width: 30%;
+  border:1px solid grey;
+  margin: auto;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 3px;
+}
+#connexion >form > label{
+  display: block;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+#connexion >form > input{
+  border : 1px solid grey;
+  padding: 4px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+#menu> nav > ul >li > a {
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+}
+#menu> nav > ul  {
+  text-decoration: none;
+  list-style-type: none;
+ padding: 10px;
+
+}
+#menu> nav > ul >li  {
+  display: inline;
+  height: 100%;
+  margin-right: 40px;
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(211, 208, 208);
+  padding: 10px;
+  color: white;
+}
+#menu>nav {
+  width: 70%;
+  box-shadow: 0px 2px 2px 1px rgb(128, 128, 128);
+  margin: auto;padding: 0;
+  text-align: center;
+  background-color: rgb(102, 102, 102);
+  border-radius: 8px;
+}
+#menu> nav>ul>li:hover{
+  background-color: rgb(73, 73, 73);
+  
+}
+#menu> nav>ul>li>a:hover{
+  color: rgb(187, 255, 244);
+}
+#btnInvite,#btnConne{
+  width: 100px !important;
+  color: rgb(114, 114, 114) !important;
+  
+  font-size: 14px;
+}
+
+#btnInvite:hover{
+  background-color:  rgb(209, 209, 209);
+}
+#btnConne:hover{
+  background-color:  rgb(209, 209, 209);
+}
+.overlay{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+.wrapper{
+  height: 350px;
+  width: 300px;
+  background-color: rgb(238, 252, 255);
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px 0px rgb(36, 36, 126);
+}
+.close{
+  position: absolute;
+  right : 10px;
+  top : 5px;
+  background-color: white;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 4px;
+}
+.close:hover{
+  position: absolute;
+  right : 10px;
+  top : 5px;
+  background-color: rgb(204, 204, 204);
+  border: 1px solid rgb(126, 126, 126);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.modale{
+  margin-top: 35px;
+  text-align: center;
+}
+
+#imgGroupePop{
+  width: 50%;
+height: 50%;
+}
+#imgMusicienPop{
+width: 100%;
+height: 100%;
+}
+
+.btnModifier{
+  width: 90px;
+  background-color: rgb(109, 109, 109);
+  padding: 4px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-right:3px ;
+}
+.btnAjouter{
+  background-color: rgb(35, 175, 35);
+  padding: 5px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-right:4px ;
+  margin-left:4px ;
+}
+.btnAssocier{
+  background-color: rgb(104, 27, 78);
+  padding: 5px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-right:4px ;
+  margin-left:4px ;
+}
+.btnSupprimer{
+  
+  background-color: rgb(187, 48, 48);
+  padding: 4px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-right:3px ;
+}
+.btnModifier:hover{
+  background-color: rgb(151, 151, 151);
+}
+.btnAjouter:hover{
+  background-color: rgb(79, 218, 79);
+}
+.btnSupprimer:hover{
+  background-color: rgb(216, 91, 91);
+}
+
+#formAjoutMusicien{
+  margin: auto;
+  width: 30%;
+  height: 45%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  background: linear-gradient(#9fb5f78c, #e2e1a0ef);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#btnAjout, #btnModifierMusicien{
+  width: 90px;
+  background-color: rgb(88, 129, 177);
+  padding: 4px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  text-align: center;
+}
+#btnAjout:hover{
+  background-color: rgb(120, 192, 176);
+}
+#btnModifierMusicien:hover{
+  background-color: rgb(120, 192, 176);
+}
+#formAjoutMusicien > label{
+  display: block;
+  margin-top: 5px;
+  text-transform: capitalize;
+  color: rgb(23, 18, 94);
+}
+#formAjoutMusicien > [type="text"]{
+  border: 1px solid rgb(14, 24, 80);
+  padding: 3px;
+  border-radius: 3px;
+}
+#formAjoutMusicien > input{
+  margin-top: 10px;
+}
+.btnResetMusicien{
+border: 1px solid rgb(7, 7, 7);
+padding: 3px;
+border-radius: 3px;
+margin-left: 10px;
+background-color: rgb(241, 165, 103);
+
+}
+.btnResetMusicien:hover{
+  background-color: rgb(247, 201, 164);
+}
+.btnResetGroupe{
+border: 1px solid rgb(7, 7, 7);
+padding: 3px;
+border-radius: 3px;
+margin-left: 10px;
+background-color: rgb(241, 165, 103);
+
+}
+.btnResetGroupe:hover{
+  background-color: rgb(247, 201, 164);
+}
+
+#tabMusicien{
+  border: 2px solid rgb(95, 157, 207);
+  border-collapse: collapse;
+  margin: 50px;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+th , td {
+  vertical-align: middle !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+.btn{
+  margin-bottom: 5px;
+}
